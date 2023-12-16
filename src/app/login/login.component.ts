@@ -28,10 +28,11 @@ export class LoginComponent implements OnInit {
 
     const isLoggedIn = this.authService.login(username, password);
 
-    this.router.navigate(['/dashboard']);
-    
     if (!isLoggedIn) {
       this.errorMessage = 'Invalid username or password';
+    }
+    else{
+      this.router.navigate(['/dashboard']);
     }
   }
 
