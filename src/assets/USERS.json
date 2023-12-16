@@ -1,0 +1,18 @@
+[
+    {
+        "_id":"1",
+        "username":"Faridghr",
+        "firstName":"Farid",
+        "lastName":"Ghorbani",
+        "email":"faridghr.cs@gmail.com",
+        "password":"12345"
+    },
+    {
+        "_id":"2",
+        "username":"Kevin12",
+        "firstName":"Kevin",
+        "lastName":"Ghaderi",
+        "email":"Kev@gmail.com",
+        "password":"12345"
+    }
+]
